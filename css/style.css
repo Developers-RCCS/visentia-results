@@ -13,8 +13,15 @@ body {
 .card {
     width: 100%;
     margin: auto;
+    min-width: auto;
 }
 
 #loading, #results {
     display: none;
+}
+
+@media (min-width: 768px) {
+    .p-md-5 {
+        padding: 10rem!important;
+    }
 }
